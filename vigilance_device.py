@@ -7,7 +7,7 @@ pygame.joystick.init()
 
 # Check for connected controllers
 if pygame.joystick.get_count() == 0:
-    print("No controller detected. Connect your 8BitDo and try again.")
+    print("No controller detected. Connect your controller and try again.")
     sys.exit()
 
 joystick = pygame.joystick.Joystick(0)
